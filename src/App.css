@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0;
+  padding: 15px 0;
   background: #222;
 }
 .nav_bar a{
@@ -15,10 +15,23 @@ display: flex;
 align-items: center;
 text-decoration: none;
 gap: 5px;
-font-size: 10px;
+font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 color: #61dbfb;
 }
-.nav_bar  img{
+.nav_bar img{
   width: 45px;
+}
+.nav_bar ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+}
+.nav_bar ul li a{
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
